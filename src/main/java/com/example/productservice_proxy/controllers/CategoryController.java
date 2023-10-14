@@ -11,7 +11,7 @@ public class CategoryController {
 
     @GetMapping()
     public String getAllCategories(){
-        return "Getting all actegories";
+        return "Getting all categories";
     }
 
     @GetMapping("/{categoryID}")
